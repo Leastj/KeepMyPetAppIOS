@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B27977827EFA5A10033CFCC /* ChoixTypeDeProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B27977727EFA5A10033CFCC /* ChoixTypeDeProfilView.swift */; };
+		5B27977C27EFB8640033CFCC /* ProfilVolontaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B27977B27EFB8640033CFCC /* ProfilVolontaireView.swift */; };
+		5B27978027F0C35D0033CFCC /* MessagerieProprietaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B27977F27F0C35D0033CFCC /* MessagerieProprietaireView.swift */; };
+		5B27978227F1A57A0033CFCC /* KeepMyPetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B27978127F1A57A0033CFCC /* KeepMyPetApp.swift */; };
+		5B2F8A9E27EB56170006F780 /* ReglagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2F8A9D27EB56170006F780 /* ReglagesView.swift */; };
+		5B2F8AA027EB76A50006F780 /* StructureAnnonce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2F8A9F27EB76A50006F780 /* StructureAnnonce.swift */; };
+		5B55A65027F1D9AC008DF391 /* KeepMyPetDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B55A64F27F1D9AC008DF391 /* KeepMyPetDatas.swift */; };
+		5B57C34B27F2F549000BDBD9 /* StructureReglagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B57C34A27F2F549000BDBD9 /* StructureReglagesView.swift */; };
+		5B57C34D27F30C98000BDBD9 /* ReglagesProprietaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B57C34C27F30C98000BDBD9 /* ReglagesProprietaireView.swift */; };
+		5BA5C94927ED100E007FB20C /* MessagerieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5C94827ED100E007FB20C /* MessagerieView.swift */; };
+		5BA5C94B27ED1BA0007FB20C /* DetailMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5C94A27ED1BA0007FB20C /* DetailMessages.swift */; };
+		83174CC027F47B9400CABB1A /* AnnonceValideBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174CBF27F47B9400CABB1A /* AnnonceValideBoardView.swift */; };
+		83174CC427F4A4E000CABB1A /* MenuNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174CC327F4A4E000CABB1A /* MenuNotificationsView.swift */; };
+		83174CC627F4A4F000CABB1A /* NotifcationsMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174CC527F4A4F000CABB1A /* NotifcationsMessagesView.swift */; };
+		83174CC827F4A4F600CABB1A /* NotificationsAnnonceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174CC727F4A4F600CABB1A /* NotificationsAnnonceView.swift */; };
+		83174CCC27F4A50300CABB1A /* PepetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174CCB27F4A50200CABB1A /* PepetsView.swift */; };
+		83174CD427F4A7D900CABB1A /* ProprietaireTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174CD327F4A7D900CABB1A /* ProprietaireTabView.swift */; };
+		83174CD627F4BBC800CABB1A /* ProfilPropriétaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174CD527F4BBC800CABB1A /* ProfilPropriétaire.swift */; };
+		83174CDC27F58BD700CABB1A /* MonExperienceModaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174CDB27F58BD700CABB1A /* MonExperienceModaleView.swift */; };
+		83174CDE27F58BF000CABB1A /* AproposLogementModaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174CDD27F58BF000CABB1A /* AproposLogementModaleView.swift */; };
+		83174CE227F58C8C00CABB1A /* EnSavoirPlusModaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174CE127F58C8C00CABB1A /* EnSavoirPlusModaleView.swift */; };
+		83174CE427F591C000CABB1A /* ProfilProprietaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83174CE327F591C000CABB1A /* ProfilProprietaireView.swift */; };
+		832E311127F32F42005479F6 /* Annonce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832E311027F32F42005479F6 /* Annonce.swift */; };
+		832E311327F32F7F005479F6 /* ResearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832E311227F32F7F005479F6 /* ResearchView.swift */; };
+		832E311B27F3314F005479F6 /* ProfilVolontaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832E311A27F3314F005479F6 /* ProfilVolontaire.swift */; };
+		832E311D27F3317D005479F6 /* Coupdecoeurvolonaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832E311C27F3317D005479F6 /* Coupdecoeurvolonaire.swift */; };
+		832E311F27F331DC005479F6 /* ReservationSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832E311E27F331DC005479F6 /* ReservationSelect.swift */; };
+		832E312127F3324E005479F6 /* Vurecemment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832E312027F3324E005479F6 /* Vurecemment.swift */; };
+		832E312B27F334A8005479F6 /* ProfilVolontairePublicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832E312A27F334A8005479F6 /* ProfilVolontairePublicView.swift */; };
+		832E313727F44A42005479F6 /* AproposAnimalModaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832E313627F44A42005479F6 /* AproposAnimalModaleView.swift */; };
+		832E313927F44D1E005479F6 /* AproposLogementModaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832E313827F44D1E005479F6 /* AproposLogementModaleView.swift */; };
+		835D6E4027EA1E8E00A82697 /* KeepMyPetTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835D6E3F27EA1E8E00A82697 /* KeepMyPetTabView.swift */; };
+		835D6E4227EA1E9000A82697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835D6E4127EA1E9000A82697 /* Assets.xcassets */; };
+		835D6E4527EA1E9000A82697 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835D6E4427EA1E9000A82697 /* Preview Assets.xcassets */; };
+		835D6E5027EA20E700A82697 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835D6E4F27EA20E700A82697 /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B27977727EFA5A10033CFCC /* ChoixTypeDeProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoixTypeDeProfilView.swift; sourceTree = "<group>"; };
+		5B27977B27EFB8640033CFCC /* ProfilVolontaireView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilVolontaireView.swift; sourceTree = "<group>"; };
+		5B27977F27F0C35D0033CFCC /* MessagerieProprietaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagerieProprietaireView.swift; sourceTree = "<group>"; };
+		5B27978127F1A57A0033CFCC /* KeepMyPetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepMyPetApp.swift; sourceTree = "<group>"; };
+		5B2F8A9D27EB56170006F780 /* ReglagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReglagesView.swift; sourceTree = "<group>"; };
+		5B2F8A9F27EB76A50006F780 /* StructureAnnonce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureAnnonce.swift; sourceTree = "<group>"; };
+		5B55A64F27F1D9AC008DF391 /* KeepMyPetDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepMyPetDatas.swift; sourceTree = "<group>"; };
+		5B57C34A27F2F549000BDBD9 /* StructureReglagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureReglagesView.swift; sourceTree = "<group>"; };
+		5B57C34C27F30C98000BDBD9 /* ReglagesProprietaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReglagesProprietaireView.swift; sourceTree = "<group>"; };
+		5BA5C94827ED100E007FB20C /* MessagerieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagerieView.swift; sourceTree = "<group>"; };
+		5BA5C94A27ED1BA0007FB20C /* DetailMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMessages.swift; sourceTree = "<group>"; };
+		83174CBF27F47B9400CABB1A /* AnnonceValideBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnonceValideBoardView.swift; sourceTree = "<group>"; };
+		83174CC327F4A4E000CABB1A /* MenuNotificationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuNotificationsView.swift; sourceTree = "<group>"; };
+		83174CC527F4A4F000CABB1A /* NotifcationsMessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifcationsMessagesView.swift; sourceTree = "<group>"; };
+		83174CC727F4A4F600CABB1A /* NotificationsAnnonceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsAnnonceView.swift; sourceTree = "<group>"; };
+		83174CCB27F4A50200CABB1A /* PepetsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PepetsView.swift; sourceTree = "<group>"; };
+		83174CD327F4A7D900CABB1A /* ProprietaireTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProprietaireTabView.swift; sourceTree = "<group>"; };
+		83174CD527F4BBC800CABB1A /* ProfilPropriétaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfilPropriétaire.swift"; sourceTree = "<group>"; };
+		83174CDB27F58BD700CABB1A /* MonExperienceModaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonExperienceModaleView.swift; sourceTree = "<group>"; };
+		83174CDD27F58BF000CABB1A /* AproposLogementModaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AproposLogementModaleView.swift; sourceTree = "<group>"; };
+		83174CE127F58C8C00CABB1A /* EnSavoirPlusModaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnSavoirPlusModaleView.swift; sourceTree = "<group>"; };
+		83174CE327F591C000CABB1A /* ProfilProprietaireView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilProprietaireView.swift; sourceTree = "<group>"; };
+		832E311027F32F42005479F6 /* Annonce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annonce.swift; sourceTree = "<group>"; };
+		832E311227F32F7F005479F6 /* ResearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResearchView.swift; sourceTree = "<group>"; };
+		832E311A27F3314F005479F6 /* ProfilVolontaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilVolontaire.swift; sourceTree = "<group>"; };
+		832E311C27F3317D005479F6 /* Coupdecoeurvolonaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupdecoeurvolonaire.swift; sourceTree = "<group>"; };
+		832E311E27F331DC005479F6 /* ReservationSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationSelect.swift; sourceTree = "<group>"; };
+		832E312027F3324E005479F6 /* Vurecemment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vurecemment.swift; sourceTree = "<group>"; };
+		832E312A27F334A8005479F6 /* ProfilVolontairePublicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilVolontairePublicView.swift; sourceTree = "<group>"; };
+		832E313627F44A42005479F6 /* AproposAnimalModaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AproposAnimalModaleView.swift; sourceTree = "<group>"; };
+		832E313827F44D1E005479F6 /* AproposLogementModaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AproposLogementModaleView.swift; sourceTree = "<group>"; };
+		835D6E3A27EA1E8E00A82697 /* KeepMyPetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepMyPetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		835D6E3F27EA1E8E00A82697 /* KeepMyPetTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepMyPetTabView.swift; sourceTree = "<group>"; };
+		835D6E4127EA1E9000A82697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		835D6E4427EA1E9000A82697 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		835D6E4F27EA20E700A82697 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		835D6E3727EA1E8E00A82697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		835D6E3127EA1E8E00A82697 = {
+			isa = PBXGroup;
+			children = (
+				832E311027F32F42005479F6 /* Annonce.swift */,
+				832E311227F32F7F005479F6 /* ResearchView.swift */,
+				5B57C34C27F30C98000BDBD9 /* ReglagesProprietaireView.swift */,
+				5B57C34A27F2F549000BDBD9 /* StructureReglagesView.swift */,
+				83174CC327F4A4E000CABB1A /* MenuNotificationsView.swift */,
+				83174CCB27F4A50200CABB1A /* PepetsView.swift */,
+				83174CC727F4A4F600CABB1A /* NotificationsAnnonceView.swift */,
+				83174CC527F4A4F000CABB1A /* NotifcationsMessagesView.swift */,
+				5B27977F27F0C35D0033CFCC /* MessagerieProprietaireView.swift */,
+				83174CD327F4A7D900CABB1A /* ProprietaireTabView.swift */,
+				83174CE327F591C000CABB1A /* ProfilProprietaireView.swift */,
+				5B27977B27EFB8640033CFCC /* ProfilVolontaireView.swift */,
+				5B27977727EFA5A10033CFCC /* ChoixTypeDeProfilView.swift */,
+				832E311A27F3314F005479F6 /* ProfilVolontaire.swift */,
+				83174CE127F58C8C00CABB1A /* EnSavoirPlusModaleView.swift */,
+				83174CD527F4BBC800CABB1A /* ProfilPropriétaire.swift */,
+				832E311C27F3317D005479F6 /* Coupdecoeurvolonaire.swift */,
+				832E311E27F331DC005479F6 /* ReservationSelect.swift */,
+				83174CBF27F47B9400CABB1A /* AnnonceValideBoardView.swift */,
+				83174CDD27F58BF000CABB1A /* AproposLogementModaleView.swift */,
+				832E312027F3324E005479F6 /* Vurecemment.swift */,
+				83174CDB27F58BD700CABB1A /* MonExperienceModaleView.swift */,
+				5BA5C94A27ED1BA0007FB20C /* DetailMessages.swift */,
+				5BA5C94827ED100E007FB20C /* MessagerieView.swift */,
+				5B2F8A9F27EB76A50006F780 /* StructureAnnonce.swift */,
+				832E313827F44D1E005479F6 /* AproposLogementModaleView.swift */,
+				832E313627F44A42005479F6 /* AproposAnimalModaleView.swift */,
+				5B2F8A9D27EB56170006F780 /* ReglagesView.swift */,
+				832E312A27F334A8005479F6 /* ProfilVolontairePublicView.swift */,
+				835D6E3C27EA1E8E00A82697 /* KeepMyPetApp */,
+				835D6E3B27EA1E8E00A82697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		835D6E3B27EA1E8E00A82697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				835D6E3A27EA1E8E00A82697 /* KeepMyPetApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		835D6E3C27EA1E8E00A82697 /* KeepMyPetApp */ = {
+			isa = PBXGroup;
+			children = (
+				5B27978127F1A57A0033CFCC /* KeepMyPetApp.swift */,
+				5B55A64F27F1D9AC008DF391 /* KeepMyPetDatas.swift */,
+				835D6E3F27EA1E8E00A82697 /* KeepMyPetTabView.swift */,
+				835D6E4F27EA20E700A82697 /* HomeView.swift */,
+				835D6E4127EA1E9000A82697 /* Assets.xcassets */,
+				835D6E4327EA1E9000A82697 /* Preview Content */,
+			);
+			path = KeepMyPetApp;
+			sourceTree = "<group>";
+		};
+		835D6E4327EA1E9000A82697 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				835D6E4427EA1E9000A82697 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		835D6E3927EA1E8E00A82697 /* KeepMyPetApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835D6E4827EA1E9000A82697 /* Build configuration list for PBXNativeTarget "KeepMyPetApp" */;
+			buildPhases = (
+				835D6E3627EA1E8E00A82697 /* Sources */,
+				835D6E3727EA1E8E00A82697 /* Frameworks */,
+				835D6E3827EA1E8E00A82697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeepMyPetApp;
+			productName = KeepMyPetApp;
+			productReference = 835D6E3A27EA1E8E00A82697 /* KeepMyPetApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		835D6E3227EA1E8E00A82697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					835D6E3927EA1E8E00A82697 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 835D6E3527EA1E8E00A82697 /* Build configuration list for PBXProject "KeepMyPetApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 835D6E3127EA1E8E00A82697;
+			productRefGroup = 835D6E3B27EA1E8E00A82697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				835D6E3927EA1E8E00A82697 /* KeepMyPetApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		835D6E3827EA1E8E00A82697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835D6E4527EA1E9000A82697 /* Preview Assets.xcassets in Resources */,
+				835D6E4227EA1E9000A82697 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		835D6E3627EA1E8E00A82697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83174CC427F4A4E000CABB1A /* MenuNotificationsView.swift in Sources */,
+				832E313927F44D1E005479F6 /* AproposLogementModaleView.swift in Sources */,
+				832E311F27F331DC005479F6 /* ReservationSelect.swift in Sources */,
+				5BA5C94B27ED1BA0007FB20C /* DetailMessages.swift in Sources */,
+				83174CDE27F58BF000CABB1A /* AproposLogementModaleView.swift in Sources */,
+				83174CD427F4A7D900CABB1A /* ProprietaireTabView.swift in Sources */,
+				83174CC027F47B9400CABB1A /* AnnonceValideBoardView.swift in Sources */,
+				5B2F8A9E27EB56170006F780 /* ReglagesView.swift in Sources */,
+				5BA5C94927ED100E007FB20C /* MessagerieView.swift in Sources */,
+				832E311327F32F7F005479F6 /* ResearchView.swift in Sources */,
+				83174CC827F4A4F600CABB1A /* NotificationsAnnonceView.swift in Sources */,
+				5B27978227F1A57A0033CFCC /* KeepMyPetApp.swift in Sources */,
+				83174CDC27F58BD700CABB1A /* MonExperienceModaleView.swift in Sources */,
+				5B27978027F0C35D0033CFCC /* MessagerieProprietaireView.swift in Sources */,
+				83174CC627F4A4F000CABB1A /* NotifcationsMessagesView.swift in Sources */,
+				835D6E4027EA1E8E00A82697 /* KeepMyPetTabView.swift in Sources */,
+				5B2F8AA027EB76A50006F780 /* StructureAnnonce.swift in Sources */,
+				832E311127F32F42005479F6 /* Annonce.swift in Sources */,
+				832E312127F3324E005479F6 /* Vurecemment.swift in Sources */,
+				832E311B27F3314F005479F6 /* ProfilVolontaire.swift in Sources */,
+				835D6E5027EA20E700A82697 /* HomeView.swift in Sources */,
+				5B57C34D27F30C98000BDBD9 /* ReglagesProprietaireView.swift in Sources */,
+				5B55A65027F1D9AC008DF391 /* KeepMyPetDatas.swift in Sources */,
+				83174CE227F58C8C00CABB1A /* EnSavoirPlusModaleView.swift in Sources */,
+				83174CD627F4BBC800CABB1A /* ProfilPropriétaire.swift in Sources */,
+				83174CE427F591C000CABB1A /* ProfilProprietaireView.swift in Sources */,
+				83174CCC27F4A50300CABB1A /* PepetsView.swift in Sources */,
+				5B27977C27EFB8640033CFCC /* ProfilVolontaireView.swift in Sources */,
+				832E313727F44A42005479F6 /* AproposAnimalModaleView.swift in Sources */,
+				832E312B27F334A8005479F6 /* ProfilVolontairePublicView.swift in Sources */,
+				5B27977827EFA5A10033CFCC /* ChoixTypeDeProfilView.swift in Sources */,
+				5B57C34B27F2F549000BDBD9 /* StructureReglagesView.swift in Sources */,
+				832E311D27F3317D005479F6 /* Coupdecoeurvolonaire.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		835D6E4627EA1E9000A82697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		835D6E4727EA1E9000A82697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		835D6E4927EA1E9000A82697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeepMyPetApp/Preview Content\"";
+				DEVELOPMENT_TEAM = MHZQZNUZZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lea.stj.KeepMyPetApp;
+				PRODUCT_NAME = KeepMyPetApp;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		835D6E4A27EA1E9000A82697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeepMyPetApp/Preview Content\"";
+				DEVELOPMENT_TEAM = MHZQZNUZZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lea.stj.KeepMyPetApp;
+				PRODUCT_NAME = KeepMyPetApp;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		835D6E3527EA1E8E00A82697 /* Build configuration list for PBXProject "KeepMyPetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835D6E4627EA1E9000A82697 /* Debug */,
+				835D6E4727EA1E9000A82697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835D6E4827EA1E9000A82697 /* Build configuration list for PBXNativeTarget "KeepMyPetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835D6E4927EA1E9000A82697 /* Debug */,
+				835D6E4A27EA1E9000A82697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 835D6E3227EA1E8E00A82697 /* Project object */;
+}
